@@ -1,12 +1,15 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import image1 from './images/image1.jpg';
+import Navbar from "../Navbar/Navbar";
 
 
 function Content () {
     return (
-        
+        <div>
+        <Navbar/>
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 mx-auto py-8 bg-gray-800'>
+            
             <div className='my-auto mx-auto'>
                 <div className='rounded-full overflow-hidden w-50'>
                    <img src={image1} className='' alt="" />      
@@ -17,13 +20,13 @@ function Content () {
                 <h1 className='text-white text-4xl sm:text-5xl lg:text-8pxl font-extrabold'>
 
                     <span className='text-cyan-300'>
-                        I'am a
+                       Hello I'am a
                     </span> <br/>
                     <TypeAnimation
                     sequence={[
-                        "Frontend Dev",
+                        "Frontend Developer",
                         1000,
-                        "Backend Dev",
+                        "Backend Developer",
                         1000
                     ]}
                     wrapper='span'
@@ -36,6 +39,7 @@ function Content () {
                 </p>
                 
             </div>
+        </div>
         </div>
     );
 }
