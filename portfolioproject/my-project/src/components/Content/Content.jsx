@@ -8,15 +8,15 @@ function Content () {
     return (
         <div>
         <Navbar/>
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 mx-auto py-8 bg-gray-800'>
+        <div className='min-h-screen grid grid-cols-1 sm:grid-cols-3 gap-8 mx-auto py-8 bg-gray-800'>
             
-            <div className='my-auto mx-auto'>
+            <div className='my-auto mx-auto mt-36'>
                 <div className='rounded-full overflow-hidden w-50'>
                    <img src={image1} className='' alt="" />      
                 </div>
             </div>
 
-            <div className='col-span-2 px-5 mt-16'>
+            <div className='col-span-2 px-5 mt-36'>
                 <h1 className='text-white text-4xl sm:text-5xl lg:text-8pxl font-extrabold'>
 
                     <span className='text-cyan-300'>

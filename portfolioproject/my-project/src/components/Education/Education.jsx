@@ -4,7 +4,7 @@ function Education() {
 
     return(
 
-        <div className="max-w-lg mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+        <div className="max-w-lg mx-auto bg-green-500 shadow-md rounded-lg overflow-hidden">
         <div className="px-4 py-2 border-b border-gray-200">
           <h2 className="text-xl font-bold text-gray-800">Education</h2>
         </div>
